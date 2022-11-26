@@ -1,0 +1,4 @@
+la página ha sido creada en una pantalla de resolucion 1929 x 1080 x 59 hz
+bits/pixel 32
+
+Recomendable abrir en el navegador Mozilla Firefox

@@ -1,0 +1,1005 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("img/definitivo.jpg");
+	background-size: contain;
+	background-repeat: repeat-x repeat-y;
+}
+
+h1{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	background-image: url("img/fondo3");
+	
+}
+
+h2{
+	font-size: 2vw;
+	margin-top: 0.5vw;
+}
+
+h2 a{
+	text-decoration: none;
+	color: black;
+}
+
+#cabecera{
+	float: left;
+	border-radius: 1em;
+	background-image: url("img/logo.png");
+	background-color: rgba(100%,100%,100%,0.99);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 10%;
+	height: 8vw;
+	margin-left: 4vw;
+	margin-top: 1%;
+}
+
+#cuerpo{
+
+	width: 100%;
+	height: 50em;
+}
+
+#menu{
+	margin-top: 0em;
+	padding: 0.5vw;
+	position:absolute;
+	right: 0;
+	width: 80%;
+	background-color: rgba(100%,100%,100%,0.99);
+	height: 5em;
+}
+
+ul {
+	list-style: none;
+
+}
+
+ul li {
+	display: inline-block;
+	margin-left:1vw;
+	text-align: center;
+	width: 8vw;
+	font-size: 1.5vw;
+	padding: 0.5vw;
+	border-bottom: 0.4vw #ffb233 solid;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+li:hover{
+	background: rgba(0,0,0,0.5);
+}
+
+
+#social{
+	position: fixed;
+	right: 0;
+	bottom: 12vw;
+	margin-top: 10vw;
+	background-color: rgba(100%,100%,100%,0.9);
+	width: 5%;
+	height: 20vw;
+	border-radius: 1vw;
+	z-index: 1;
+	
+}
+
+#social img{
+	float: right;
+	margin: 1vw;
+}
+
+#contenido{
+	float: left;
+	margin-left: 2em;
+	background-color: rgba(100%,100%,100%,0.5);
+	width: 90%;
+	height: all;
+	position: relative;
+	top: 5em;
+}
+
+.pr_ti{
+	border: solid 1vw black;
+	background-image: url("img/fondo2.png"),url("img/collage.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: auto;
+	background-color: white;
+	padding: 3vw;
+	height: 30vw;
+	margin-bottom: 2vw;
+
+}
+
+
+.pr_ti article{
+	background-image: url("img/fondo4.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 34vw;
+	width: 40vw;
+	margin-left: 52%;
+
+}
+
+.pr_ti article h1{
+	font-size: 3vw;
+	position: relative;
+	color: #f8f8f8;
+	right: 28vw;
+	bottom: 2vw;
+	background-color: rgb(27, 24, 71);
+	border:black 0.5vw solid;
+	font-style: italic;
+	border-radius: 1vw;
+	
+}
+
+.pr_ti article h1 span{
+	font-size: 4vw;
+	color: #ffb233;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+.pr_ti section{
+	position: absolute;
+	top: 5vw;
+	left: 1vw;
+	background-image: url("img/malo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 25vw;
+	width: 25vw;
+}
+
+.pr_ti main{
+	position: absolute;
+	top: 6vw;
+	left: 16vw;
+	background-image: url("img/rambo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 25vw;
+	width: 30vw;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	background-color: black;
+	height: 3vw;
+	width: 100%;
+}
+
+.cont{
+	float: left;
+	border:black 0.3em solid;
+	width: 40%;
+	height: fit-content;
+	margin-left: 4vw;
+	margin-right: 3vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	background-color: white;
+	border-radius: 1em;
+	padding:1vw;
+	font-size: 1em;
+	
+}
+
+.cont img {
+	float: left;
+	margin-right: 1vw;
+	padding: 0.2vw;
+	margin-bottom: 1em;
+	height: auto;
+	width: 10vw;
+}
+
+div p{
+	font-size: 1.5vw;
+	margin-top: 0.5vw;
+}
+
+.razz{
+	width: 90%;
+	float: left;
+	border:black 0.3em solid;
+	margin-left: 0em;
+	height: 25em;
+	margin: 2.5em;
+	background-image: url("img/razzie.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 1em;
+	padding:1vw;
+	font-size: 1em;
+	max-width: 90%;
+}
+
+.razz p {
+	font-size: 2vw;
+	background-color: rgba(100%,100%,100%,0.5);
+	padding: 1em;
+	border-radius: 1em;
+	width: 30%;
+}
+
+.razz img{
+	float: right;
+	border: 0.5vw black solid;
+	width: 100%;
+	max-width: 30vw;
+	height: auto;
+}
+
+.razz hr{
+	background-color: black;
+	border-radius: 0.5vw;
+	width: 99%;
+	border: black solid 0.1px;
+	height: 0.5vw;
+	position: relative;
+	bottom: 1vw;
+}
+
+hr{
+	background-color: #ffb233;
+	border: #ffb233 solid 0.1px;
+	border-radius: 0.5vw;
+	width: 99%;
+	height: 0.5vw;
+	position: relative;
+	bottom: 1vw;
+}
+
+
+#registro p{
+	float: left;
+	font-size: 0.7vw;
+	color: white;
+	width: 60vw;
+	margin-left: 1vw;
+	
+}
+
+#contacto p{
+	float: right;
+	font-size: 0.5vw;
+	color: white;
+	width: 20vw;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* PAGINA 90.S */
+
+#intro{
+	float: left;
+	border:black 0.3em dotted;
+	margin-left: 0em;
+	width: 90%;
+	height: 100%;
+	margin: 2.5em;
+	background-color: white;
+	border-radius: 1em;
+	padding:1vw;
+	font-size: 1em;
+}
+
+#intro h1{
+	font-size: 4vw;
+	padding: 3vw;
+	width: 90%;
+	margin:auto;
+	background-image: url("img/90.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+
+}
+
+#intro h1 span{
+	font-size: 5vw;
+	color: #ffb233;
+	font-weight: bold;
+}
+
+#intro p{
+	margin: 1vw;
+}
+
+#intro div{
+	float: left;
+	border: solid 0.5vw black;
+	margin-left: 0em;
+	width: 90%;
+	background-color: rgba(72,91,127,0.5);
+	border-radius: 1em;
+	padding:1vw;
+	font-size: 1em;
+	margin: 3vw;
+}
+
+#intro div section{
+	float: left;
+	border: solid black 3vw;
+	background-image: url("img/fondo2.png");
+	background-size: cover;
+	background-position: center;
+	margin-left: 6vw;
+	padding: 3vw;
+	
+}
+
+#intro div section iframe{
+	float: left;
+	position: relative;
+	bottom:2vw;
+	margin-bottom: 2vw;
+}
+
+#intro form{
+	font-size: 2vw;
+}
+
+#intro form fieldset legend span {
+	color: #ffb233;
+	font-size: 3vw;
+}
+
+#intro form fieldset {
+	border: 0.5vw solid black;
+}
+
+/*PAGINA 2000.S*/
+ 
+#P2000{
+	float: left;
+	border:black 0.3vw solid;
+	margin-left: 0vw;
+	width: 95%;
+	height: 100%;
+	margin: 2.5vw;
+	background-color: white;
+	border-radius: 1vw;
+	padding:1vw;
+	font-size: 1vw;
+}
+
+#P2000 div{
+	float: left;
+	border:black 0.3em solid;
+	width: 43%;
+	height: 100%;
+	margin: 2.5em;
+	background-color: white;
+	border-radius: 1em;
+	padding:1vw;
+	font-size: 1vw;	
+}
+
+#P2000 h1{
+	font-size: 4vw;
+	background-image: url("img/2000.png");
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-position: bottom;
+	padding-bottom: 3vw;
+	margin-bottom: 1vw;
+	width: 90%;
+	margin:auto;	
+}
+
+#P2000 h1 span{
+	font-size: 5vw;
+	color: #ffb233;
+	font-weight: bold;
+
+}
+#P2000 div span{
+	font-style: italic;
+}
+
+#P2000 .no_float{
+	clear: both;
+	border:black 0.3em solid;
+	margin-left: 0em;
+	width: 90%;
+	margin: 2.5em;
+	background-color: white;
+	border-radius: 1em;
+	padding:1vw;
+	font-size: 1em;	
+}
+
+
+#P2000 iframe{
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	position: relative;
+	left:10%;
+	border-left: solid black 1vw;
+	border-right: solid black 1vw;
+
+}
+
+
+#P2000 h3{
+	font-size: 2vw;
+}
+
+#P2000 article{
+	font-size: 1.5vw;
+	width: 90%;
+	text-align: justify;
+	margin: auto;
+}
+
+#P2000 form{
+	font-size: 2vw;
+	clear: both;
+}
+
+#P2000 form fieldset legend span {
+	color: #ffb233;
+	font-size: 3vw;
+}
+
+#P2000 form fieldset {
+	border: 0.5vw solid black;
+}
+
+#P2000 form fieldset textarea{
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+}
+
+/*PAGINA ENCUESTA*/
+
+#encuesta{
+	float: left;
+	border:black 0.3vw dotted;
+	margin-left: 0vw;
+	width: 90%;
+	height: 100%;
+	margin: 2.5vw;
+	background-color: white;
+	border-radius: 1vw;
+	padding:1vw;
+	font-size: 1vw;
+}
+
+#encuesta section{
+	background-image: url("img/trilogiapadrino.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10vw;
+
+}
+
+#encuesta section h1{
+	font-size: 4vw;
+	background-color: rgba(255, 255, 255,0.9);
+	padding: 2vw;
+	border: #ffb233 solid 0.5vw;
+}
+
+#encuesta section h1 span{
+	color: #ffb233;
+}
+
+
+#encuesta form{
+	font-size: 1vw;
+}
+	
+
+#encuesta form fieldset{
+	border: solid black 0.5vw;
+	margin-bottom: 1vw;
+	border-radius: 0.5vw;
+	
+}
+
+#encuesta form fieldset fieldset{
+	border: solid black 0.5vw;
+	margin-bottom: 1vw;
+	
+} 
+
+#encuesta form fieldset legend{
+	font-size: 2vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+#encuesta form fieldset legend span{
+	font-size: 2.5vw;
+	color: #ffb233;
+	font-weight: bold;
+}
+
+#encuesta form fieldset h2{
+	font-size: 1.5vw;
+}
+
+#encuesta form input[type=text],input[type=email],input[type=date],input[type=tel]{
+	border: none;
+	border-bottom: 0.2vw solid black;
+	margin-left: 2vw;
+	width: 20%;
+}
+
+#encuesta form input[type=radio],input[type=checkbox]{
+	margin-left: 2vw;
+}
+
+#encuesta form input[type=text]:focus {
+	border: 3px solid #555;
+  }
+
+#encuesta form input[type=date]:focus {
+	border: 3px solid #555;
+  }
+
+#encuesta form input[type=email]:focus {
+	border: 3px solid #555;
+  }  
+
+#encuesta form select {
+	width: 100%;
+	padding: 0.5vw;
+	border: none;
+	border-radius: 0.2vw;
+	background-color: #ffb233;
+  }
+
+#encuesta form textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 0.1vw solid black;
+	border-radius: 0.5vw;
+	background-color: #f8f8f8;
+	resize: none;
+  }
+
+  #encuesta input[type=submit] {
+	background-color: rgba(72,91,127,0.5);
+	border: none;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	font-size: 2vw;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 1vw;
+  }
+
+  /*PAGINA RAZZIES*/
+
+  #razzies{
+	float: left;
+	border:black 0.3vw dotted;
+	margin-left: 0vw;
+	width: 90%;
+	height: 100%;
+	margin: 2.5vw;
+	background-color: white;
+	border-radius: 1vw;
+	padding:1vw;
+	font-size: 1vw;
+  }
+
+#razzint{
+	float: left;
+	border:black 0.3vw solid;
+	margin-left: 0vw;
+	width: 90%;
+	height: 90%;
+	margin: 2.5vw;
+	background-image: url("img/razzie2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 1vw;
+	padding:1vw;
+	font-size: 1vw;
+  }
+
+  #razzint h1{
+	  font-size: 3vw;
+	  margin-bottom: 2vw;
+
+  }
+  
+  #razzint p{
+	background-color: rgba(100%,100%,100%,0.9);
+	padding: 1vw;
+	border-radius: 1vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+  }
+
+  #razzint ul{
+	width: 100%;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+  }
+
+  #razzint ul li{
+	width: 20%;
+	font-size: 1.5vw;
+	background-color: white;
+	border-bottom: black solid 0.5vw;
+  }
+
+  #razzint li:hover{
+	background-color: rgba(72,91,127,0.9);
+  }
+
+  #razzies h2{
+	clear:both;
+	border: #ffb233 solid 0.5vw;
+	margin-top: 4vw;
+	margin-bottom: 2vw;
+	padding: 1vw;
+	text-align: center;
+  }
+
+  #razzies h3{
+	color: #ffb233;
+	font-size: 1.5vw;
+  }
+
+  #razzies p{
+	  margin-left: 3vw;
+	  margin-right: 3vw;
+	  text-align: justify;
+  }
+
+  #razzies table{
+	margin-left: 7vw;
+	margin-right: 5vw;
+	width: 80%;
+	border-collapse: separate;
+  }
+
+  #razzies table td{
+	border-bottom: solid black 0.5vw;
+	font-size: 1.5vw;
+	padding: 1vw;
+	text-align: center;
+	background-color: rgba(255, 178, 51,0.6);
+	margin-top: 0.5vw;
+  }
+
+  #razzies p span{
+	  font-size: 3vw;
+  }
+
+  #hechos p{
+	margin-bottom: 2vw;
+	margin-top: 2vw;;
+  }
+
+  #hechos img{
+	  float:left;
+	  margin-left: 2vw;
+	  margin-right: 1vw;
+	  border: black solid 0.2vw;
+  }
+
+  #hechos .dech{
+	  float: right;
+	  margin-right: 2vw;
+	  margin-left: 1vw;
+  }
+
+  #hechos hr{
+	  width: 80%;
+  }
+  
+  /*PAGINA SERIEB*/
+
+  #introb{
+	clear: both;
+	float: left;
+	border-top:black 0.3vw solid;
+	border-bottom: black 0.3vw solid;
+	margin-left: 0vw;
+	width: 95%;
+	height: 100%;
+	margin: 2.5vw;
+	background-image: url("img/badfilms.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 1vw;
+	padding:1vw;
+	font-size: 1vw;
+  }
+
+  #introb article{
+	float: left;
+	background-color: rgba(100%,100%,100%,0.9);
+	padding: 3vw;
+	margin: 2vw;
+	border:solid blacK 1vw;
+	border-radius: 2vw;
+  }
+
+  #introb article h1{
+	  background-image: url("img/b.png");
+	  background-size: contain;
+	  font-size: 3vw;
+	  border-color: #ffb233;
+	  margin-bottom: 2vw;
+	  padding: 2vw;
+
+  }
+
+  #introb article h1 span{
+	  color:#ffb233;
+	  font-size: 4vw;
+  }
+
+  #introb article p{
+	  width: 40%;
+	  float: left;
+	  margin-right: 2vw;
+	  margin-left: 4vw;
+	  text-align: justify;
+	  margin-top: 0vw;
+	  margin-bottom: 0vw;
+  }
+
+  #serieb div{
+	  clear: both;
+	  float: left;
+	  margin: 2vw;
+	  background-color: #f8f8f8;
+	  padding: 1vw;
+	  border: black solid 1vw;
+	  text-align: justify;
+
+  }
+
+  #serieb div img{
+	  float:right;
+	  border: dotted 0.5vw;
+	  margin: 1vw;
+  }
+
+  #serieb div h2{
+	  border:#ffb233 solid 0.5vw;
+	  padding: 1vw;
+  }
+
+  #serieb div iframe{
+	  border-right: black solid 1vw;
+	  border-left: black solid 1vw;
+	  margin-left: 20%;
+  }
+
+#serieb section{
+	clear: both;
+	background-color: #f8f8f8;
+	padding: 2vw;
+	width: 95%;
+	margin: auto;
+	border: #ffb233 0.5vw solid;
+}
+
+#serieb form{
+	font-size: 2vw;
+	width: 100%;
+	background-color: #f8f8f8;
+}
+
+#serieb form fieldset legend span {
+	color: #ffb233;
+	font-size: 3vw;
+}
+
+
+#serieb form fieldset {
+	border: 0.5vw solid black;
+	width: 90%;
+}
+
+#serieb form fieldset textarea{
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+}
+
+#serieb a{
+	margin-bottom: 4vw;
+}
+
+/*PAGINA LOGIN*/
+
+#login{
+	margin-left: 0vw;
+	width: 90%;
+	height: 100%;
+	margin: 2.5vw;
+	background-color: rgb(27, 24, 71);
+	border-radius: 1vw;
+	padding:1vw;
+	font-size: 1vw;
+	color: white;
+}
+
+#login table{
+	padding: 2vw;
+	border: #f8f8f8 1vw white;
+	margin: auto;
+}
+
+#login table tr td{
+	width: 40vw;
+	border-bottom:#ffb233 solid 1vw;
+	color: #f8f8f8;
+	font-variant: small-caps;
+	font-size: 4vw;
+	font-weight: bold;
+	padding: 2vw;
+	text-align: center;
+}
+
+#login table tr td form{
+	width: fit-content;
+	clear: both;
+	color: black;
+	font-variant: normal;
+	background-color: #ffb233;
+	padding: 2vw;
+	border-radius: 1vw;
+	margin:auto;
+	margin-top: 2vw;
+}
+
+#login table tr td form label{
+	font-size: 1vw;
+	margin: 0;
+	text-align: left;
+}
+
+
+#login table tr td form input[type=submit]{
+	clear: both;
+	background-color:rgb(27, 24, 71);
+	color: white;
+	padding: 1vw;
+	font-size: 1vw;
+	margin-left: 1vw;
+	margin-top: 2vw;
+	width: 90%;
+	
+}
+
+.registro{
+	background-image: url("img/fondo1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 4vw;
+	padding: 6vw;
+	margin-top: 1vw;
+}
+
+.registro a{
+	text-decoration: none;
+	color: white;
+}
+
+/*PAGINA SING IN*/
+/*Formulario tomado y modificado del ejemplo de clase.
+Los input:text no toman el formato deseado*/
+
+
+#singin{
+
+	float: left;
+	margin-left: 0vw;
+	width: 90%;
+	height: 100%;
+	margin: 2.5vw;
+	background-color: rgb(27, 24, 71);
+	border-radius: 1vw;
+	padding:1vw;
+	font-size: 1vw;
+	color: white;	
+}
+
+*{box-sizing:border-box;}
+		
+#singin form{
+	width:40%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	margin-top: 2vw;
+	background-color:#ffb233;
+	font-size: 1vw;
+	color: black;
+}
+
+#singin form label{
+	width:72px;
+	font-weight:bold;
+	margin: 0;
+	
+}
+
+#singin form input[type=text],form input[type="email"]{
+	float: right;
+	width:180px;
+	padding:3px 10px;
+	background-color:#ffb233;
+	margin:8px 0;
+	
+}
+
+#singin form input[type="submit"]{
+	width:100%;
+	padding:1vw 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:white;
+	background-color:rgb(27, 24, 71);
+	font-size: 1.5vw;
+} 
+
+#singin form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+#singin textarea{
+	width:100%;
+	height:100px;
+	border:0.5vw solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+	
+}
